@@ -3,7 +3,7 @@
     $visitor_email=$_POST['email'];
     $message=$_POST['message'];
 
-    $email_from="https://github.com/shafiqdaud/web";
+    $email_from="https://shafiqdaud.github.io/checkphp/contactform-handler.php";
     $email_subject="Suggestion/complaint";
 
     $email_body= "User Name : $Name .\n",
