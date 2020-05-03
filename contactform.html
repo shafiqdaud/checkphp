@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="contact-title">
+            <h1>Say Hello</h1>
+            <h2>We are here for you</h2>
+        </div>
+
+        <div class="contact-form">
+            <form id="contact-form" method="post" action="contactform-handler.php">
+                <input name="Name" placeholder="Enter Name" type="text" class="form-control" required>
+                <br>
+                <br>
+                <input name="Email" placeholder="Enter Your Email" type="email" class="form-control" required>
+                <br>
+                <br>
+                <textarea name="Message" placeholder="Sugeestion/Complaint"  class="form-control" rows="5"  required></textarea><br>
+                <br>   
+                <input type="submit" class="form-control submit" value="Send Email">
+                
+
+                
+            </form>
+        </div>
+    </body>
+</html>
